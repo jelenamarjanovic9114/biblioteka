@@ -1,16 +1,20 @@
 package biblioteka;
 
+import java.util.LinkedList;
+
 //prvo treba add to index 
 //pa onda commit
 
 public class Knjiga {
 	private String naslov;
 	private long isbn;
-	private String autor;
+	private LinkedList<Autor> autor;
 	private int brojStrana;
 	private String izdavac;
 	private String izdanje;
 	private int godinaIzdavanja;
+	
+	
 	public String getNaslov() {
 		return naslov;
 	}
@@ -23,10 +27,10 @@ public class Knjiga {
 	public void setIsbn(long isbn) {
 		this.isbn = isbn;
 	}
-	public String getAutor() {
+	public LinkedList<Autor> getAutor() {
 		return autor;
 	}
-	public void setAutor(String autor) {
+	public void setAutor(LinkedList<Autor> autor) {
 		this.autor = autor;
 	}
 	public int getBrojStrana() {
