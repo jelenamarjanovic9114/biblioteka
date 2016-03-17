@@ -1,9 +1,11 @@
-package biblioteka;
+package biblioteka;//jeksi rulz
 
 import java.util.LinkedList;
 import biblioteka.interfejs.BibliotekaInterfejs;
 
 public class Biblioteka implements BibliotekaInterfejs {
+	
+	//Ovo je lista svih knjiga u biblioteci  lalallalalallalalallalal
 	private LinkedList<Knjiga> knjige = new LinkedList<>();
 	
 	@Override
